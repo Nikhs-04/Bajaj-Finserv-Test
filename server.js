@@ -9,7 +9,6 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Personal information - Replace with your actual details
 const PERSONAL_INFO = {
     fullName: "nikhita_moncy", 
     birthDate: "04012004", // Format: DDMMYYYY
