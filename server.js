@@ -108,12 +108,13 @@ function generateAlternatingCaseString(alphabetArray) {
 }
 
 // GET route for testing API availability
-app.get('/bfhl', (req, res) => {
-    res.status(200).json({
-        operation_code: 1,
-        message: "API is operational"
-    });
+app.get("/", (req, res) => {
+  res.json({
+    message: "VIT Full Stack API Challenge",
+    usage: "Send POST requests to /bfhl with { data: [...] }"
+  });
 });
+
 
 // Health check endpoint
 app.get('/health', (req, res) => {
