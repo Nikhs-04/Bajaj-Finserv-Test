@@ -16,6 +16,8 @@ Send POST request with JSON body:
 ## Hosted endpoint
 https://vit-fullstack-api-gold.vercel.app/bfhl
 
-`
+https://vit-fullstack-dmq91gufr-nikhitas-projects-99d486ab.vercel.app/
+
+
 ## API Test Screenshot
 ![API Test](screenshot.png)
